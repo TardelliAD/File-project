@@ -40,8 +40,9 @@ func main() {
 		}
 
 	}
+
 	rand.Seed(time.Now().UnixNano())
-	fmt.Println(rand.Int())
+	fmt.Println(rand.Intn(100))
 }
 
 // generate a random nunber
